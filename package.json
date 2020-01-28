@@ -1,0 +1,29 @@
+{
+  "name": "logux-server-app",
+  "version": "1.0.0",
+  "description": "touch the logux-server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "logux",
+    "logux-server"
+  ],
+  "author": "YanaLugina",
+  "license": "MIT",
+  "dependencies": {
+    "@logux/server": "^0.5.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.2",
+    "node-fetch": "^2.6.0",
+    "node-pg-migrate": "^4.2.2",
+    "nodemon": "^2.0.2",
+    "pg": "^7.17.1",
+    "pg-promise": "^10.3.5",
+    "zlib": "^1.0.5"
+  }
+}
+
